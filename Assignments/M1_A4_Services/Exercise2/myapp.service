@@ -1,0 +1,8 @@
+[Unit]
+Description=My Custome Application
+After=network.target
+[Service]
+Type=simple
+ExecStart=/root/testing_systemd/service_script.sh 
+[Install]
+WantedBy=multi-user.target                                          

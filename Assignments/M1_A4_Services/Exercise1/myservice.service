@@ -1,0 +1,7 @@
+[Unit]
+Description=My Assignment 4
+
+[Service]
+Type=simple
+# Recover from deletion, per FHS.
+ExecStart=/bin/bash -c "echo 'Hello Ahmed Wafdy service!' && sleep 10 "
