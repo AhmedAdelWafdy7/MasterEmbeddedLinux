@@ -1,5 +1,3 @@
-Certainly! Here's the content you provided formatted as a `readme.md` file:
-
 ```markdown
 # Exercise 1: File Permissions and Ownership
 
@@ -25,7 +23,9 @@ In this exercise, we'll explore file permissions and ownership in Linux.
    ```bash
    ls -li
    chmod 600 secret.txt
-   ```
+    ```
+   ![1](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/ebaab2ea-f75c-4a67-9315-ba4fa98ed2ef)
+
 
 5. Add a new user named `linux1` and change the ownership of the file to that user:
    ```bash
@@ -37,6 +37,7 @@ In this exercise, we'll explore file permissions and ownership in Linux.
    ```bash
    sudo cat secret.txt
    ```
+![2](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/8b773ca7-91ea-413d-a0ea-15c2d18aa774)
 
 ## Exercise 2: User and Group Management
 
@@ -61,6 +62,8 @@ In this exercise, we'll focus on user and group management.
    ```bash
    id user1
    ```
+   ![1](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/70c8c1a9-19e6-4a87-ac0e-001ee01c293a)
+
 
 5. Change the ownership of `secret.txt` to `user1` and `group1`:
    ```bash
@@ -77,5 +80,4 @@ In this exercise, we'll focus on user and group management.
    su user1
    cat secret.txt
    ```
-```
-
+![2](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/a92a75d7-dd04-4448-85ce-ac4dd57f1101)
