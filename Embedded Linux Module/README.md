@@ -52,16 +52,34 @@ The C library serves as the gateway to the kernel for Linux programs and runtime
 ## Building a Toolchain using Crosstool-ng
 To build a toolchain using Crosstool-ng:
 1. Clone the Crosstool-ng repository.
+![S1_1](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/25d46b3c-5049-422d-8fa7-36b421f1df41)
+
 2. Navigate to the Crosstool-ng directory and run the `bootstrap` script.
+![S](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/be632f51-9471-4ec6-aa54-1fa03394ac71)
+
 3. Configure the installation prefix to avoid requiring root permissions.
-4. Build the toolchain using `bin/ct-ng`.
+![S1_4](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/7f78d21f-9f7e-44d6-bda1-fedbb2a1a555)
+![S1_5](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/71cfa0b0-91e8-44de-8be9-6c0c0d98fbea)
+![S1_6](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/5a4fa6bd-97bb-40a4-ab64-689bc4654e59)
+
+5. Build the toolchain using `bin/ct-ng`.
+![S1_7](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/d36a90ba-f61d-4c28-90c4-0070a10863aa)
+
 
 ## Building a Toolchain for RPI3
 To build a toolchain for the Raspberry Pi 3 (RPI3):
 1. List all samples and choose the RPI3 configuration.
+![S1_8](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/4fce9618-397e-43c8-b8e4-66927374da29)
+![S1_9](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/f51dfd73-60e8-47ac-94aa-4ca0fc632db4)
+
 2. Review and modify the configuration using the `menuconfig` command.
+![s1_10](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/4a7b02a3-dd70-4ea6-84a6-d697cf270917)
+
 3. Disable rendering the toolchain read-only.
+
 4. Build the toolchain (this may take some time).
+![S1_11](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/aa69dc04-e111-4079-bbf5-1fdd88eb9c0b)
+
 
 ## Linking with Static and Dynamic Libraries
 Libraries come in two forms: static and dynamic.
