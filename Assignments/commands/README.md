@@ -1,6 +1,4 @@
-Certainly! Here's a README.md file containing the provided commands for each exercise:
 
-```markdown
 # Commands-fs
 
 ## Exercise 1: Basic Navigation
