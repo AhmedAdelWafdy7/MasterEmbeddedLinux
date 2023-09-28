@@ -176,8 +176,7 @@ In this exercise, we will use the `find` and `grep` commands to search for speci
    ```bash
    grep wafdy output.txt
    ```
-
-   ![Screenshot](/home/benwafdy/Pictures/Screenshots/Screenshot from 2023-09-28 20-46-00.png)
+  ![Screenshot from 2023-09-28 20-46-00](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/5a4a2a35-1cb8-44d3-afaa-50ec74f3d4a6)
 
 # Exercise 8: Archiving and Compression
 
@@ -205,7 +204,8 @@ In this exercise, we will create a tar archive of a directory, compress it using
    tar -xvf commands-fs.tar.gz
    ```
 
-   ![Screenshot](/home/benwafdy/Pictures/Screenshots/Screenshot from 2023-09-28 21-09-49.png)
+   ![Screenshot from 2023-09-28 21-09-49](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/f67edab3-458c-4885-96eb-427c84f3cfb2)
+
 
 # Exercise 9: Networking
 
@@ -222,17 +222,15 @@ In this exercise, we will perform network-related tasks such as pinging a websit
    ```bash
    ifconfig
    ```
-
-   ![Screenshot](/home/benwafdy/Pictures/Screenshots/Screenshot from 2023-09-28 21-23-58.png)
+   ![Screenshot from 2023-09-28 21-23-58](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/0f71ac40-c3e5-4159-853b-0bdcb0cb99a0)
 
 3. List all open ports:
    ```bash
    netstat -tulpn
    ```
+   ![Screenshot from 2023-09-28 21-29-53](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/e7f97fd9-bf65-46e7-a392-4e9a39d27190)
 
-   ![Screenshot](/home/benwafdy/Pictures/Screenshots/Screenshot from 2023-09-28 21-29-53.png)
-
-   ![Screenshot](/home/benwafdy/Pictures/Screenshots/Screenshot from 2023-09-28 21-31-07.png)
+   ![Screenshot from 2023-09-28 21-31-07](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/c6c4bfd4-bcd1-44eb-96ab-8d904ecb6a18)
 
 # Exercise 10: Package Management
 
@@ -244,8 +242,7 @@ In this exercise, we will perform package management tasks using the package man
    ```bash
    sudo apt update
    ```
-
-   ![Screenshot](/home/benwafdy/Pictures/Screenshots/Screenshot from 2023-09-28 21-37-10.png)
+   ![Screenshot from 2023-09-28 21-37-10](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/e23b2245-6afd-4530-9122-9dc33babaa2a)
 
 # Exercise 11: File Permissions and Ownership
 
@@ -266,21 +263,18 @@ In this exercise, we will use `sed` to replace a specific word in a text file, `
    ```bash
    sed -i 's/wafdy/adel/g' output.txt
    ```
-
-   ![Screenshot](/home/benwafdy/Pictures/Screenshots/Screenshot from 2023-09-28 21-54-12.png)
+   ![Screenshot from 2023-09-28 21-54-12](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/b34dca05-3e2f-496d-afbb-26f5f693e6fa)
 
 3. Use `awk` to extract specific columns (1st, 3rd, and 5th) from `micromouse_V2.0-all-pos.csv`:
    ```bash
    awk -F ',' '{print $1,$3,$5}' micromouse_V2.0-all-pos.csv
    ```
-
-   ![Screenshot](/home/benwafdy/Pictures/Screenshots/Screenshot from 2023-09-28 21-55-15.png)
+   ![Screenshot from 2023-09-28 21-55-15](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/acd94cf8-ef1d-450c-8513-f25a3632a4b6)
 
 4. Use `grep` to find lines in `output.txt` that contain the letter "a":
    ```bash
    grep 'a' output.txt
    ```
-
-   ![Screenshot](/home/benwafdy/Pictures/Screenshots/Screenshot from 2023-09-28 22-01-50.png)
+   ![Screenshot from 2023-09-28 22-01-50](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/85ce7092-4123-44bc-92b1-ab8aba7888a3)
 
 These are the commands used to solve Exercise 12.
