@@ -148,3 +148,139 @@ Find processes that contain "firefox" in their command line
 top -c -p $(pgrep -d',' -f firefox)
 ```
 ![Screenshot from 2023-09-28 08-59-46](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/b787b934-5033-4e63-b6b2-e267f551ee52)
+
+# Exercise 7: File Searching
+
+In this exercise, we will use the `find` and `grep` commands to search for specific files and strings within files.
+
+## Commands Used to Solve Exercise 7
+
+1. List files in the current directory:
+   ```bash
+   ls
+   ```
+
+2. View the contents of the file `output.txt`:
+   ```bash
+   cat output.txt
+   ```
+
+3. Search for a file named `output.txt` that contains the word "Hello" and print its path:
+   ```bash
+   find . -name output.txt -exec grep -l Hello {} \;
+   ```
+
+   Note: The above command is used to search for a file named `output.txt` that contains the word "Hello."
+
+4. Search for the string "wafdy" in the file `output.txt`:
+   ```bash
+   grep wafdy output.txt
+   ```
+
+   ![Screenshot](/home/benwafdy/Pictures/Screenshots/Screenshot from 2023-09-28 20-46-00.png)
+
+# Exercise 8: Archiving and Compression
+
+In this exercise, we will create a tar archive of a directory, compress it using gzip, and then extract the compressed archive.
+
+## Commands Used to Solve Exercise 8
+
+1. List files in the current directory:
+   ```bash
+   ls
+   ```
+
+2. Create a tar archive of the `commands-fs/` directory:
+   ```bash
+   sudo tar -cvf commands-fs.tar commands-fs/
+   ```
+
+3. Compress the tar archive using gzip:
+   ```bash
+   gzip commands-fs.tar
+   ```
+
+4. Extract the contents of the compressed tar archive:
+   ```bash
+   tar -xvf commands-fs.tar.gz
+   ```
+
+   ![Screenshot](/home/benwafdy/Pictures/Screenshots/Screenshot from 2023-09-28 21-09-49.png)
+
+# Exercise 9: Networking
+
+In this exercise, we will perform network-related tasks such as pinging a website or IP address, checking network interfaces, and listing open ports.
+
+## Commands Used to Solve Exercise 9
+
+1. Ping google.com to test network connectivity:
+   ```bash
+   ping google.com
+   ```
+
+2. Check network interfaces and their configurations:
+   ```bash
+   ifconfig
+   ```
+
+   ![Screenshot](/home/benwafdy/Pictures/Screenshots/Screenshot from 2023-09-28 21-23-58.png)
+
+3. List all open ports:
+   ```bash
+   netstat -tulpn
+   ```
+
+   ![Screenshot](/home/benwafdy/Pictures/Screenshots/Screenshot from 2023-09-28 21-29-53.png)
+
+   ![Screenshot](/home/benwafdy/Pictures/Screenshots/Screenshot from 2023-09-28 21-31-07.png)
+
+# Exercise 10: Package Management
+
+In this exercise, we will perform package management tasks using the package manager.
+
+## Commands Used to Solve Exercise 10
+
+1. Update the package list using the package manager (e.g., apt update):
+   ```bash
+   sudo apt update
+   ```
+
+   ![Screenshot](/home/benwafdy/Pictures/Screenshots/Screenshot from 2023-09-28 21-37-10.png)
+
+# Exercise 11: File Permissions and Ownership
+
+This exercise has already been covered in previous exercises.
+
+# Exercise 12: Text Processing
+
+In this exercise, we will use `sed` to replace a specific word in a text file, `awk` to extract specific columns from a CSV file, and `grep` to find lines in a file that match a specific pattern.
+
+## Commands Used to Solve Exercise 12
+
+1. View the contents of the file `output.txt`:
+   ```bash
+   cat output.txt
+   ```
+
+2. Use `sed` to replace the word "wafdy" with "adel" in `output.txt`:
+   ```bash
+   sed -i 's/wafdy/adel/g' output.txt
+   ```
+
+   ![Screenshot](/home/benwafdy/Pictures/Screenshots/Screenshot from 2023-09-28 21-54-12.png)
+
+3. Use `awk` to extract specific columns (1st, 3rd, and 5th) from `micromouse_V2.0-all-pos.csv`:
+   ```bash
+   awk -F ',' '{print $1,$3,$5}' micromouse_V2.0-all-pos.csv
+   ```
+
+   ![Screenshot](/home/benwafdy/Pictures/Screenshots/Screenshot from 2023-09-28 21-55-15.png)
+
+4. Use `grep` to find lines in `output.txt` that contain the letter "a":
+   ```bash
+   grep 'a' output.txt
+   ```
+
+   ![Screenshot](/home/benwafdy/Pictures/Screenshots/Screenshot from 2023-09-28 22-01-50.png)
+
+These are the commands used to solve Exercise 12.
