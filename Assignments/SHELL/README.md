@@ -2,6 +2,8 @@
 
 This Bash script, named "To-Do.sh," is a simple command-line tool for managing a to-do list. It allows you to add, delete, view, and mark tasks as done within a to-do list file.
 
+![image](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/a7c58dda-7da2-4958-9c3a-ccdc83120726)
+
 ## How to Use
 
 You can use this script by running it from the command line with the following syntax:
