@@ -1,4 +1,4 @@
-![Screenshot 2023-09-30 073248](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/d3133527-c49b-415c-b0d5-bdd2071164af)# Networking Assignment Readme
+# Networking Assignment Readme
 
 This readme provides a step-by-step guide for completing the networking assignment tasks on VMware virtual machines. The tasks include getting IP addresses for each VM, checking connectivity through ICMP packets using the ping command, monitoring ICMP packets using Wireshark, and changing the status of the Ethernet card on PC2.
 
