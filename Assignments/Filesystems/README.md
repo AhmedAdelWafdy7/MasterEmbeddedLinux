@@ -5,11 +5,10 @@ This README file provides step-by-step instructions on how to perform the assign
 
 1. **Initial Setup:**
    - Begin by ensuring the SD-CARD is unallocated and empty. You can use tools like `gparted` to achieve this.
+     ![Screenshot from 2023-09-30 01-49-57](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/f330e6c2-5f16-42fe-9f5b-73f2744e1b31)
      
-   ![Screenshot from 2023-09-30 01-49-57](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/f6278379-7740-4506-bc
-   ![Screenshot from 2023-09-30 02-01-48](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/86534538-5212-42d2-a27c-a7dd833953d5)
-d2-304d1babeed4)
-   
+    ![Screenshot from 2023-09-30 02-01-48](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/58108395-9a04-495d-be86-92be20dd3e55)
+
 3. **Creating Partitions:**
    - Use the `fdisk` command to create two partitions on the SD-CARD:
      ```
