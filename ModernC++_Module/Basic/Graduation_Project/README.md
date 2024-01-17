@@ -5,6 +5,9 @@ This simple User SignUp application allows users to add and fetch user records. 
 ## Overview
 
 The application consists of a `user` class representing a user record, with attributes such as name, age, option, and ID. Users can add records, fetch records based on user ID, and quit the application. The main functionality is encapsulated within the `user` class, and the program is executed within the `main` function.
+![image](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/cc2a9181-363a-40c1-96ed-b35ffbd58239)
+![image](https://github.com/AhmedAdelWafdy7/MasterEmbeddedLinux/assets/107740350/8b1cedda-d55c-41c8-9b54-aa39e769f0e1)
+
 
 ## Dependencies
 
